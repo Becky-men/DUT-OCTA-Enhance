@@ -1,0 +1,72 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch
+*.pth
+*.pt
+checkpoints/
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 数据集（如果太大可以排除，这里保留）
+# Dataset/
+
+# 测试结果和临时文件
+test_results/
+test_results_enhanced/
+demo_results/
+*.png
+*.jpg
+*.jpeg
+!Dataset/**/*.png
+!Dataset/**/*.jpg
+!Dataset/**/*.jpeg
+*.zip
+
+# 日志文件
+*.log
+training_log.txt
+
+# 临时文件
+*.tmp
+*.bak
+
+
